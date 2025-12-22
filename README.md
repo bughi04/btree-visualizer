@@ -9,7 +9,7 @@ A sophisticated JavaFX application that implements and visualizes **B-Tree data 
 
 ![B-Tree Visualizer Demo](demo-screenshot.png)
 
-## 🌟 Key Features
+## Key Features
 
 ### Complete B-Tree Operations
 - **Insert** - Add keys with automatic node splitting
@@ -31,7 +31,7 @@ A sophisticated JavaFX application that implements and visualizes **B-Tree data 
 - **Error Handling** - Graceful handling of edge cases
 - **User-Friendly Alerts** - Clear feedback for all operations
 
-## 🎯 Technical Highlights
+## Technical Highlights
 
 ### Advanced B-Tree Implementation
 ```java
@@ -54,7 +54,7 @@ A sophisticated JavaFX application that implements and visualizes **B-Tree data 
 
 *where t = minimum degree, n = number of keys, h = tree height*
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Java Development Kit (JDK)** 22 or higher
@@ -100,7 +100,7 @@ mvn clean javafx:run
 - Click respective buttons for Min, Max, Predecessor, Successor
 - View complete inorder traversal
 
-## 📚 Complete Documentation
+## Complete Documentation
 
 For in-depth technical details, algorithm explanations, and implementation insights:
 
@@ -115,7 +115,7 @@ The comprehensive documentation includes:
 - Complete code walkthrough
 - Troubleshooting guide
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 btree-visualizer/
@@ -134,7 +134,7 @@ btree-visualizer/
 └── README.md
 ```
 
-## 💡 B-Tree Properties Maintained
+## B-Tree Properties Maintained
 
 This implementation strictly maintains all B-Tree invariants:
 
@@ -144,14 +144,14 @@ This implementation strictly maintains all B-Tree invariants:
 4. **Sorted Keys** - Keys within nodes are sorted
 5. **Subtree Ordering** - All keys in left subtree < parent key < right subtree
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Java 22** - Modern Java features and syntax
 - **JavaFX 22.0.1** - Rich desktop application framework
 - **Graphviz Java** (guru.nidi) - DOT graph visualization
 - **Apache Maven** - Dependency management and build tool
 
-## 🎓 Educational Value
+## Educational Value
 
 Perfect for learning and demonstrating:
 - **Data Structures** - Self-balancing trees, multi-way search trees
@@ -160,7 +160,7 @@ Perfect for learning and demonstrating:
 - **Software Design** - Clean separation between data structure and visualization
 - **GUI Programming** - Event-driven architecture with JavaFX
 
-## 🔍 Use Cases
+## Use Cases
 
 B-Trees are fundamental in:
 - **Database Indexing** - MySQL, PostgreSQL use B+ Trees
@@ -168,18 +168,7 @@ B-Trees are fundamental in:
 - **Operating Systems** - Memory management structures
 - **Search Engines** - Inverted index implementations
 
-## 🚧 Future Enhancements
-
-Potential improvements:
-- [ ] B+ Tree variant implementation
-- [ ] Persistence (save/load tree state)
-- [ ] Animation of operations (step-by-step visualization)
-- [ ] Generic key types (not just integers)
-- [ ] Performance metrics display
-- [ ] Bulk operations (insert multiple keys)
-- [ ] Tree comparison mode
-
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Areas of interest:
 - Algorithm optimizations
@@ -188,17 +177,4 @@ Contributions welcome! Areas of interest:
 - Unit test coverage
 - Documentation improvements
 
-## 📖 References
-
-1. Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). *Introduction to Algorithms* (3rd ed.). MIT Press.
-2. Knuth, D. E. (1998). *The Art of Computer Programming, Volume 3: Sorting and Searching* (2nd ed.).
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
----
-
-**⭐ Star this repository if you find it useful!**
-
-*Demonstrates practical implementation of advanced data structures with clean, maintainable code and professional visualization.*
+**Star this repository if you find it useful!**
