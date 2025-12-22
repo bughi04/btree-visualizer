@@ -104,34 +104,6 @@ For in-depth technical details, algorithm explanations, and implementation insig
 
 **[View Complete Technical Documentation](docs/technical-documentation.pdf)**
 
-The comprehensive documentation includes:
-- Detailed B-Tree algorithm explanation
-- Node splitting and merging logic
-- Deletion algorithm with all cases
-- Graphviz DOT format generation
-- Mathematical complexity analysis
-- Complete code walkthrough
-- Troubleshooting guide
-
-## Project Structure
-
-```
-btree-visualizer/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   ├── module-info.java
-│       │   └── org/example/adsproject/
-│       │       ├── BTree.java              # Core B-Tree implementation
-│       │       ├── BTreeNode.java          # Node structure
-│       │       └── HelloApplication.java   # JavaFX GUI
-│       └── resources/
-│           └── org/example/adsproject/
-│               └── hello-view.fxml
-├── pom.xml                                 # Maven configuration
-└── README.md
-```
-
 ## B-Tree Properties Maintained
 
 This implementation strictly maintains all B-Tree invariants:
@@ -148,23 +120,6 @@ This implementation strictly maintains all B-Tree invariants:
 - **JavaFX 22.0.1** - Rich desktop application framework
 - **Graphviz Java** (guru.nidi) - DOT graph visualization
 - **Apache Maven** - Dependency management and build tool
-
-## Educational Value
-
-Perfect for learning and demonstrating:
-- **Data Structures** - Self-balancing trees, multi-way search trees
-- **Algorithms** - Recursive operations, tree balancing strategies
-- **Complexity Analysis** - Understanding logarithmic operations
-- **Software Design** - Clean separation between data structure and visualization
-- **GUI Programming** - Event-driven architecture with JavaFX
-
-## Use Cases
-
-B-Trees are fundamental in:
-- **Database Indexing** - MySQL, PostgreSQL use B+ Trees
-- **File Systems** - NTFS, ext4, HFS+ use B-Tree variants
-- **Operating Systems** - Memory management structures
-- **Search Engines** - Inverted index implementations
 
 ## Contributing
 
