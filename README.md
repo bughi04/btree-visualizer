@@ -55,7 +55,6 @@ On launch, you'll be prompted to enter a branching factor (t ≥ 2). The applica
 ## Screenshots
 
 ![B-Tree Visualization Example]
-*(Add screenshot here)*
 
 ## What I Learned
 
