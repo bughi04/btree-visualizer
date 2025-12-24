@@ -5,7 +5,7 @@
 ![Maven](https://img.shields.io/badge/Maven-Build-red.svg)
 
 An interactive JavaFX application for visualizing B-Tree data structures with real-time graphical updates.
-> **Note**: This project was developed with AI assistance as a learning and development tool, alongside traditional programming methods.
+> **Note**: This project was designed and implemented by me, with selective use of AI tools for research, refactoring, and productivity - similar to modern IDE assistance.
 
 
 ## Overview
