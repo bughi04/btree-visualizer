@@ -1,10 +1,10 @@
 # B-Tree Visualizer
 
-An interactive JavaFX application for visualizing B-Tree data structures with real-time graphical updates.
-
 ![Java](https://img.shields.io/badge/Java-22-orange.svg)
 ![JavaFX](https://img.shields.io/badge/JavaFX-22.0.1-blue.svg)
 ![Maven](https://img.shields.io/badge/Maven-Build-red.svg)
+
+An interactive JavaFX application for visualizing B-Tree data structures with real-time graphical updates.
 > **Note**: This project was developed with AI assistance as a learning and development tool, alongside traditional programming methods.
 
 
@@ -52,10 +52,6 @@ mvn clean javafx:run
 ```
 
 On launch, you'll be prompted to enter a branching factor (t ≥ 2). The application opens with an empty tree ready for operations.
-
-## Screenshots (To add soon)
-
-![B-Tree Visualization Example]
 
 ## What I Learned
 
