@@ -70,5 +70,3 @@ On launch, you'll be prompted to enter a branching factor (t ≥ 2). The applica
 - Step-by-step operation breakdown
 - Export tree to various formats
 - Comparison with other tree structures (AVL, Red-Black)
-
-**If you find this project interesting, please consider giving it a star!**
