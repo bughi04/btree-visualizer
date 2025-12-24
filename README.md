@@ -45,7 +45,7 @@ This project implements a complete B-Tree data structure from scratch with an in
 
 ## Quick Start
 ```bash
-git clone https://github.com/yourusername/BTrees.git
+git clone https://github.com/bughi04/BTrees.git
 cd BTrees
 mvn clean javafx:run
 ```
